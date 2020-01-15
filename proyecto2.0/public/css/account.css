@@ -1,0 +1,9 @@
+#form-container{
+    float: left;
+    margin-left: 30%;
+    background: linear-gradient(grey , white);
+    text-align: center;
+    margin-top: 2%;
+    width: 500px;
+    height: 400px;
+}

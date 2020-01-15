@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <title> Coding schmoding </title>
+    <link rel="stylesheet" type="text/css" href="../css/header_public.css">
+    <link rel="stylesheet" type="text/css" href="../css/footer.css">
+    <link rel="stylesheet" type="text/css" href="../css/account.css">
+</head>
+
+<body>
+
+    <div id="header">
+        <img src="../images/logo.jpg">
+        <div class="topnav">
+            <a class="active" href="../../index.html">Home</a>
+            <a href="../html/about_us.html">Sobre nosotros</a>
+            <a href="../html/contacto.html">Contacto</a>
+            <a href="for_users.html">Para usuarios </a>
+            <a href="for_companies.html">Para empresas </a>
+            <div class="login-container">
+                <button style="margin-top: 6%"><a href="../php/login_usuarios.php">Iniciar sesi&oacute;n</a></button>
+            </div>
+        </div>
+    </div>
+
+    <div id="form-container">
+        <form method="get" action="../../private/php/empresas/new_companie.php">
+            <h2 class="text-center"><strong>Crear una cuenta de empresa</strong></h2>
+            <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
+            <div class="form-group"><input class="form-control" type="text" name="user" placeholder="Usuario"></div>
+            <div class="form-group"><input class="form-control" type="text" name="empresa" placeholder="Empresa"></div>
+            <div class="form-group"><input class="form-control" type="password" name="pass" id="password"
+                    placeholder="Password"></div>
+            <div class="form-group"><input class="form-control" type="password" name="password-repeat"
+                    id="password-repeat" placeholder="Password (repeat)"></div>
+            <br />
+            <div class="form-group">
+                <div class="form-check"><label class="form-check-label"><input class="form-check-input"
+                            type="checkbox">Acepto los t&eacute;rminos de uso.</label></div>
+            </div>
+            <br />
+            <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Crear cuenta</button></div>
+
+        </form>
+
+    </div>
+
+    <div id="footer">
+        <img src="../images/github.png" id="pic1">
+        <img src="../images/twitter.png" id="pic2">
+    </div>
+
+    </div>
+
+    </div>
+
+</body>
+
+</html>

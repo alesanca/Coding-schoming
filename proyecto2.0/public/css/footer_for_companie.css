@@ -1,0 +1,17 @@
+#footer {
+    background: #c2c2d6;
+    width: 100%;
+    height: 50px;
+    margin-top: 15%;
+    margin-bottom: 1%;
+  }
+  
+  #footer img {
+    width: 25px;
+    height: 25px;
+    margin-top: 1%;
+  }
+  
+  #footer #pic1 {
+    margin-left: 45%;
+  }

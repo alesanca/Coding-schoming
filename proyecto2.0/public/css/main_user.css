@@ -1,0 +1,22 @@
+#main_user{
+    width: 100%;
+    height: 300px;
+}
+
+#square{
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 100%;
+    height: 100px;
+}
+
+#square img{
+    width: 100px;
+    height: 100px;
+}
+
+#square p{
+    
+    font-size: 20;
+}
