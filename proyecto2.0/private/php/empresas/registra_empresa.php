@@ -47,6 +47,7 @@
       <input type="text" name="name" placeholder="Nombre de la empresa"><br /><br />
       <input type="text" name="area" placeholder="Area de trabajo"><br /><br />
       <input type="number" name="numero" placeholder="Numero de trabajadores"><br /><br />
+      <input type="text" name="description" placeholder="Descripcion de la empresa"><br /><br />
       <input type="submit" name="enviar" placeholder="Enviar comentario"><br /><br />
     </form>
 
@@ -55,11 +56,12 @@
         $usuario = mysqli_real_escape_string($db,$_POST['name']); 
         $area = mysqli_real_escape_string($db,$_POST['area']); 
         $numero = mysqli_real_escape_string($db,$_POST['numero']); 
-        if($usuario == '' or $area == ''){
+        $descripcion = mysqli_real_escape_string($db,$_POST['description']); 
+        if($usuario == '' or $area == '' or $numero == '' or $descripcion = ''){
           echo "Lo sentimos, debe rellenar todos los campos";
         }else{
-          $insertar = mysqli_query($db, "insert into lista_empresas(nombre, area, numero) VALUES 
-          ('".$usuario."' , '".$area."' , '".$numero."')") or die(mysqli_error($db));
+          $insertar = mysqli_query($db, "insert into lista_empresas(nombre, area, numero, descripcion) VALUES 
+          ('".$usuario."' , '".$area."' , '".$numero."' , '".$descripcion."')") or die(mysqli_error($db));
           echo "Los campos se han rellenado correctamente. <br/>";
         }
       }
