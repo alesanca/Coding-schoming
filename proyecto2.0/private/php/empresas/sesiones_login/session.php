@@ -16,9 +16,9 @@
    
    $ses_sql = mysqli_query($db,"select usuario from empresas where user = '".$user_check."'");
    
-   $row = mysqli_fetch_array($ses_sql,MYSQLI_ASSOC);
+   //$row = mysqli_fetch_array($ses_sql,MYSQLI_ASSOC);
 
-   $login_session = $row['user'];
+   //$login_session = $row['user'];
    
    if(!isset($_SESSION['login_user'])){
       header("location:login_usuarios.php");

@@ -5,17 +5,11 @@
 }
 
 #todos{
-    text-align: center; 
-    width: auto;
-    height: 100px;
-    background-color: #99ff99;
     border: 2px solid black;
-    float: left;
-    margin-left: 30%;
-    margin-top: 1%;
+    margin-top: 1px;
+    background-color: #ffffcc;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 25%;
 }
 
-#container{
-    width: 100%;
-    height: auto;
-}

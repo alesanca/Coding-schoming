@@ -7,7 +7,14 @@
     margin-left: 25%;
 }
 
-#comments form{
-    text-align: center;
-    margin-top: 5%;
+#todos{
+    border: 2px solid black;
+    margin-top: 1px;
+    background-color: #ffffcc;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 25%;
 }
+
+
+

@@ -7,23 +7,23 @@
 <head>
 
   <title> Coding schmoding </title>
-  <link rel="stylesheet" type="text/css" href="../css/header_private.css">
-  <link rel="stylesheet" type="text/css" href="../css/edit_account.css">
-  <link rel="stylesheet" type="text/css" href="../css/private_footer.css">
+  <link rel="stylesheet" type="text/css" href="../../css/header_private.css">
+  <link rel="stylesheet" type="text/css" href="../../css/edit_account.css">
+  <link rel="stylesheet" type="text/css" href="../../css/private_footer.css">
 
 </head>
 
 <body>
 
-  <div id="header">
-    <img src="../../public/images/logo.jpg">
+<div id="header">
+    <img src="../../../public/images/logo.jpg">
     <div class="topnav">
-      <a class="active" href="#home">Home</a>
-      <a href="../../public/html/about_us.html">Sobre nosotros</a>
-      <a href="../../public/html/contacto.html">Contacto</a>
-      <a href="../../public/html/for_users.html">Para usuarios </a>
-      <a href="../../public/html/for_companies.html">Para empresas </a>
+      <a class="active" href="welcome.php">Home</a>
+      <a href="comenta.php">Comenta</a>
+      <a href="upload_code.php">Sube tu c&oacute;digo</a>
+      <a href="empresas.php">Empresas</a>
       <div class="login-container">
+        <a href="edit_account.php"><img src="../../../public/images/cuenta.png"></a>
         <button style="margin-top: 6%"><a href="sesiones_login/logout.php">Cerrar sesión</a></button>
       </div>
     </div>
@@ -59,19 +59,27 @@
         </form>
 
         <div id="square">
-          
-            <p> Eliminar usuario </p>
-            <form action="change/delete_user.php" method="get">
+
+          <p> Eliminar usuario </p>
+          <form action="change/delete_user.php" method="get">
             <input type="submit" name="Enviar">
           </form>
         </div>
 
+        <div id="square">
+        <p> Aquí puedes subir tu CV, esto permitirá a las empresas tener a manos a los posibles candidatos
+        que buscan para su plantilla.</p>
+          <form action="subir_cv.php" method="post" enctype="multipart/form-data">
+            Sube tu CV: <input name="fichero" type="file" size="150" maxlength="150">
+            <br/><br /><input name="submit" type="submit" value="Subir archivo">
+          </form>
+        </div>
       </div>
 
 
       <div id="footer">
-        <img src="../../public/images/github.png" id="pic1">
-        <img src="../../public/images/twitter.png" id="pic2">
+        <img src="../../../public/images/github.png" id="pic1">
+        <img src="../../../public/images/twitter.png" id="pic2">
       </div>
 
     </div>

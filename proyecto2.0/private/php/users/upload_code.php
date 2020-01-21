@@ -49,27 +49,26 @@
 <head>
 
     <title> Coding schmoding </title>
-    <link rel="stylesheet" type="text/css" href="../../public/css/header_public.css">
-    <link rel="stylesheet" type="text/css" href="../css/container.css">
-    <link rel="stylesheet" type="text/css" href="../css/footer.css">
+    <link rel="stylesheet" type="text/css" href="../../css/header_public.css">
+    <link rel="stylesheet" type="text/css" href="../../css/container.css">
+    <link rel="stylesheet" type="text/css" href="../../css/footer.css">
 </head>
 
 <body>
 
-    <div id="header">
-        <img src="../../public/images/logo.jpg">
-        <div class="topnav">
-            <a class="active" href="welcome.php">Home</a>
-            <a href="comenta.php">Comenta</a>
-            <a href="upload_code.php">Sube tu c&oacute;digo</a>
-            <a href="../../public/html/for_users.html">Ofertas de empleo</a>
-            <a href="../../public/html/for_companies.html">Empresas</a>
-            <div class="login-container">
-                <a href="edit_account.php"><img src="../../public/images/cuenta.png"></a>
-                <button style="margin-top: 6%"><a href="sesiones_login/logout.php">Cerrar sesión</a></button>
-            </div>
-        </div>
+<div id="header">
+    <img src="../../../public/images/logo.jpg">
+    <div class="topnav">
+      <a class="active" href="welcome.php">Home</a>
+      <a href="comenta.php">Comenta</a>
+      <a href="upload_code.php">Sube tu c&oacute;digo</a>
+      <a href="empresas.php">Empresas</a>
+      <div class="login-container">
+        <a href="edit_account.php"><img src="../../../public/images/cuenta.png"></a>
+        <button style="margin-top: 6%"><a href="sesiones_login/logout.php">Cerrar sesión</a></button>
+      </div>
     </div>
+  </div>
 
     <div id="container">
         <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post" enctype="multipart/form-data">
@@ -91,10 +90,10 @@
         }
     ?>
 
-    <footer>
-        <img src="../../public/images/github.png" id="pic1">
-        <img src="../../public/images/twitter.png" id="pic2">
-    </footer>
+<div id="footer">
+        <img src="../../../public/images/github.png" id="pic1">
+        <img src="../../../public/images/twitter.png" id="pic2">
+      </div>
 
 </body>
 

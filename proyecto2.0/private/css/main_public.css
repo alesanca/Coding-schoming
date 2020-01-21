@@ -1,0 +1,62 @@
+#container {
+  width: 100%;
+
+}
+
+h1 {
+  font-size: 41.1592px;
+  color: rgb(65, 64, 66);
+}
+
+#center {
+  text-align: center;
+  margin-top: 7%;
+}
+
+#center p {
+  color: rgb(65, 64, 66);
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+#login_butoms button {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+
+  border-radius: 6px;
+  background-color: #66ccff;
+  color: black;
+}
+
+#login_butoms button :hover {
+  color: black;
+  background-color: #99ff99;
+}
+
+#caracteristicas {
+  background: #66ccff;
+  width: 90%;
+  height: 200px;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+#square img {
+  width: 100px;
+  height: 100px;
+}
+
+#square {
+  height: 200px;
+  width: 23%;
+  float: left;
+  margin-left: 10%;
+}
+
+#square p {
+  text-align: left;
+}
+
+
+

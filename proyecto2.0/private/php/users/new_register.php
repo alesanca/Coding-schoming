@@ -23,7 +23,13 @@
                 "pass"=>$pass,
             );
             
-            if( $consulta->execute($parametros) )
+            /*$consulta1 = $db->prepare( "insert into lista_usuarios(email, usuario) values(:email, :user)");
+            $parametros1 = array(
+                "email"=>$email,
+                "user"=>$user,
+            );*/
+            
+            if( $consulta->execute($parametros))
                 header("Location: ../../../public/php/login_usuarios.php");
             else
                 echo "Error: el usuario no ha podido insertarse correctamente";

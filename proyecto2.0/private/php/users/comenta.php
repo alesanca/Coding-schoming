@@ -26,14 +26,13 @@
 
 <body>
 
-  <div id="header">
+<div id="header">
     <img src="../../../public/images/logo.jpg">
     <div class="topnav">
       <a class="active" href="welcome.php">Home</a>
-      <a href="comenta.php">Sobre nosotros</a>
-      <a href="../../public/html/contacto.html">Contacto</a>
-      <a href="../../public/html/for_users.html">Para usuarios </a>
-      <a href="../../public/html/for_companies.html">Para empresas </a>
+      <a href="comenta.php">Comenta</a>
+      <a href="upload_code.php">Sube tu c&oacute;digo</a>
+      <a href="empresas.php">Empresas</a>
       <div class="login-container">
         <a href="edit_account.php"><img src="../../../public/images/cuenta.png"></a>
         <button style="margin-top: 6%"><a href="sesiones_login/logout.php">Cerrar sesión</a></button>
@@ -76,9 +75,9 @@
   </div>
 
   <div id="footer">
-    <img src="../../public/images/github.png" id="pic1">
-    <img src="../../public/images/twitter.png" id="pic2">
-  </div>
+        <img src="../../../public/images/github.png" id="pic1">
+        <img src="../../../public/images/twitter.png" id="pic2">
+      </div>
 
   </div>
 

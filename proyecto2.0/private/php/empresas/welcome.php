@@ -29,10 +29,9 @@
     <img src="../../../public/images/logo.jpg">
     <div class="topnav">
       <a class="active" href="welcome.php">Home</a>
-      <a href="../users/comenta.php">Comenta</a>
+      <a href="empresas.php">Empresas</a>
       <a href="registra_empresa.php">Registra tu empresa</a>
-      <a href="#">Sube tu oferta</a>
-      <a href="#">Lista de usuarios</a>
+      <a href="lista_usuarios.php">Lista de usuarios</a>
       <div class="login-container">
         <a href="edit_account.php"><img src="../../../public/images/cuenta.png"></a>
         <button style="margin-top: 6%"><a href="sesiones_login/logout.php">Cerrar sesión</a></button>

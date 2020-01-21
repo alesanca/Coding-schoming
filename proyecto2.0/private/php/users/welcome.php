@@ -17,9 +17,9 @@
 </style>
 
   <title> Coding schmoding </title>
-  <link rel="stylesheet" type="text/css" href="../../../public/css/header_public.css">
-  <link rel="stylesheet" type="text/css" href="../../../public/css/main_public.css">
-  <link rel="stylesheet" type="text/css" href="../../../public/css/footer.css">
+  <link rel="stylesheet" type="text/css" href="../../css/header_public.css">
+  <link rel="stylesheet" type="text/css" href="../../css/main_public.css">
+  <link rel="stylesheet" type="text/css" href="../../css/footer.css">
 
 </head>
 
@@ -31,7 +31,6 @@
       <a class="active" href="welcome.php">Home</a>
       <a href="comenta.php">Comenta</a>
       <a href="upload_code.php">Sube tu c&oacute;digo</a>
-      <a href="#">Ofertas de empleo</a>
       <a href="empresas.php">Empresas</a>
       <div class="login-container">
         <a href="edit_account.php"><img src="../../../public/images/cuenta.png"></a>

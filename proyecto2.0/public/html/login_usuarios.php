@@ -17,11 +17,17 @@
       
       // If result matched $myusername and $mypassword, table row must be 1 row
 		
-      if($count == 1) {
+      if($count == 1 && $myusername=="admin" && $mypassword=="admin") {
          //session_register("user");
          $_SESSION['login_user'] = $myusername;
          
+        header("location: ../../private/php/admin/welcome.php");
+         
+      }elseif($count == 1 ){
+        $_SESSION['login_user'] = $myusername;
+         
          header("location: ../../private/php/users/welcome.php");
+        
       }else {
          $error = "Your Login Name or Password is invalid";
       }
@@ -41,16 +47,17 @@
 
 <body>
 
-  <div id="header">
+<div id="header">
     <img src="../images/logo.jpg">
     <div class="topnav">
       <a class="active" href="../../index.html">Home</a>
-      <a href="#about">Sobre nosotros</a>
-      <a href="#contact">Contacto</a>
-      <a href="#contact">Para usuarios </a>
-      <a href="#contact">Para empresas </a>
+      <a href="about_us.html">Sobre nosotros</a>
+      <a href="contacto.html">Contacto</a>
+      <a href="for_users.html">Para usuarios </a>
+      <a href="for_companies.html">Para empresas </a>
       <div class="login-container">
-        <button style="margin-top: 6%"><a href="#">Crear cuenta</a></button>
+        <a href="public/html/new_user.html" style="margin-top: 9%">Crear cuenta</a>
+        <button style="margin-top: 6%"><a href="public/html/login_usuarios.php">Iniciar sesi&oacute;n</a></button>
       </div>
     </div>
   </div>
